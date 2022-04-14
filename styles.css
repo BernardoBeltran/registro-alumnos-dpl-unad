@@ -1,0 +1,80 @@
+html{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+  
+*,
+*:before,
+*:after{
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+html{
+    background-color: #333333;
+}
+
+h1{
+    text-align: center;
+    color: #F47920;
+}
+
+h4{
+    text-align: center;
+    color: #F47920;
+}
+
+
+.registration-form{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: antiquewhite;
+}
+
+
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-form input[type="text"]{
+    width: 30vw;
+    padding: .2rem;
+    outline: none;    
+}
+
+.btnSubmit{
+    width: 80px;
+    height: 30px;
+    background-color: #005883;
+    border-style: none;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+.btnSubmit:hover{
+    cursor: pointer;
+    background-color: #007ab8;
+
+}
+
+.students-list, th, td{
+    border-collapse: collapse;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid antiquewhite;
+}
+
+.students-list th, td{
+    color: antiquewhite;
+    padding: 5px;
+}
